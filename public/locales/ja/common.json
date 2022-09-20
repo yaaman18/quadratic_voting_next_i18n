@@ -1,0 +1,111 @@
+{
+  "global": {
+    "title": "Next QV",
+    "home": "ホーム",
+    "about": "アバウト",
+    "work": "ワーク"
+  },
+  "home": {
+    "subtitle": "公平な民主主義を実現させるQuadretic Voting(二次投票)のツール",
+    "qv_description_1": "二次投票は、民主的なコミュニティで投票するための数学的に最適な方法です。",
+    "qv_description_2": "方向性だけでなく、好みの度合いを表す票を割り当てることで、集団的な意思決定による投票が可能です。",
+    "host": "こちらから投票する議題を作成してください",
+    "to_about": "説明はこちら",
+    "create_event": "イベントを設定する",
+    "create_event_description": "投票する議題や人数を設定します",
+    "set_up_event": "設定ページへ",
+    "to_polling place": "イベント投票",
+    "vote_place_description": "こちらから設定したイベントに投票できます",
+    "place_vote": "投票ページへ"
+  },
+  "create": {
+    "title": "イベントを作成",
+    "description": "イベント設定に必要事項を記入し、オプションを追加してください",
+    "global_setteing": "グローバルセッティング",
+    "global_setting_description": "イベントのタイトルと説明を追加し、投票者数、投票権の数、投票の開始日と終了日を選択してください。",
+    "event_called": "どのようなイベント名にしますか？",
+    "event_title": "イベントタイトル",
+    "event_called_placeholder": "イベント名",
+    "event_description": "イベント説明",
+    "event_description_subject": "240文字以内でイベント内容を記入してください。",
+    "event_description_placeholder": "イベント内容",
+    "event_voters": "イベント参加者リンク数",
+    "event_voters_description": "イベントに参加する人数のリンクを作ります。何人参加しますか？",
+    "vote_assignment": "参加者一人当たりの点数",
+    "vote_assignment_description": "一人当たりが使える点数を設定します。点数は一票投ずるごとに二乗で消費していきます。",
+    "event_start_date": "イベント開始日",
+    "event_start_date_ask": "投票開始時間はいつにしますか？",
+    "start_event_date": "",
+    "event_end_date": "イベント終了日",
+    "event_end_date_ask": "投票終了時間はいつにしますか？",
+    "options": "オプション",
+    "options_description": "投票者が投票権を委譲できるオプションを追加したり、オプションのタイトル、説明、リンクの追加を選択することができます。",
+    "options_list": "追加オプション",
+    "subject_description": "どのようなイベント名にしますか？",
+    "no_option_added": "オプションが追加されていません",
+    "add_options": "選択肢を追加",
+    "option_title": "オプションタイトル",
+    "option_title_placeholder": "どんなタイトル？",
+    "option_description": "選択の内容",
+    "option_description_placeholder": "選択の内容を書いてください",
+    "vote_link": "Link",
+    "option_link": "オプションリンク",
+    "add_options_button": "オプションを追加する",
+    "enter_title_button": "オプションを決定する",
+    "add_two_option": "最低二つ以上の選択を追加してください"
+  },
+  "event": {
+    "title": "イベントの詳細",
+    "this_event_has_concluded": "このイベントは終了しました。結果は以下をご覧ください",
+    "this_event_begins": "本イベントの始まり",
+    "this_event_closes": "このイベントは終了しました",
+    "event_start_date": "イベント開始日",
+    "save": "セーブ",
+    "edit": "エディット",
+    "event_end_date": "イベント終了日",
+    "event_url": "イベントURL",
+    "statistics_dashboard": "統計ダッシュボードのURL",
+    "private_admin_url": "管理者専用URL",
+    "save_this": "このURLを保存して、イベントを管理し変更を加えることができます。",
+    "individual": "個別投票リンク",
+    "private_sharing": "有権者との共有用",
+    "download_TXT": "TXTとしてダウンロードする",
+    "event_votes": "イベントの投票数",
+    "event.Quadratic_Voting-weighted": "二次関数投票-加重投票の結果",
+    "download_apreadsheet": "スプレッドシートのダウンロード",
+    "loading_chart": "チャートをロードする",
+    "please_give_us_a_moment": "少々お待ちください",
+    "voting_results": "投票結果はイベント終了後、こちらに表示されます",
+    "event_statistics": "イベント統計",
+    "voting_participants": "投票参加者数",
+    "credits_used": "使用されたクレジット",
+    "event_Statistics_will_appear": "イベントが終了すると、ここにイベント統計が表示されます"
+  },
+  "failure": {
+    "title": "不具合の為に投票に失敗しました",
+    "title_description": "後程もう一度試してください。",
+    "try_voting": "もう一度投票する",
+    "see_event_dashboard": "イベントダッシュボードを見る"
+  },
+  "place": {
+    "title": "投票コードを入力してください。",
+    "description": "これは、複数の文字とダッシュで構成される長いコードでなければなりません。",
+    "invalid_voting": "無効な投票コード",
+    "oops!": "その投票コードは存在しないようです。",
+    "try_again": "もう一度試す",
+    "automatic_redirect": "自動的にリダイレクトします。",
+    "seconds": "秒"
+  },
+  "success": {
+    "title": "あなたの投票が入りました",
+    "description": "投票が正常に行われました。",
+    "change_your_vote": "投票内容の変更",
+    "see_event_dashboard": "イベントダッシュボードを見る"
+  },
+  "about": {
+    "title": "アバウトページ"
+  },
+  "navigation": {
+    "create_event": "イベント作成ページ"
+  }
+}

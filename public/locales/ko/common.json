@@ -1,0 +1,14 @@
+{
+  "global": {
+    "title": "Next QV",
+    "home": "톱 페이지",
+    "about": "아바웃",
+    "work": "작업"
+  },
+  "about": {
+    "title": "어바웃 페이지 "
+  },
+  "work": {
+    "title": "작업 페이지"
+  }
+}
