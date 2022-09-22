@@ -1,5 +1,5 @@
-// import { mdiTranslate } from '@mdi/js'
-// import Icon from '@mdi/react'
+import { mdiTranslate } from '@mdi/js'
+import Icon from '@mdi/react'
 import { i18n } from 'next-i18next'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -49,8 +49,8 @@ export const Header = () => {
         <div className='pr-4 pt-3'>
           <div className='dropdown dropdown-left'>
             <label tabIndex={0}>
-              {/* <Icon path={mdiTranslate} title='language translate' size={1} color='#64748b' /> */}
-              language
+              <Icon path={mdiTranslate} title='language translate' size={1} color='#64748b' />
+              {/* language */}
             </label>
             <ul
               tabIndex={0}
